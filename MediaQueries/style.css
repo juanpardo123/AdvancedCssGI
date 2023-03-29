@@ -1,0 +1,43 @@
+body{
+    background-color: white;
+}
+
+.details{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+/* Media Queries */
+
+/* MObile first, we start from the samllerst viewport width */
+
+/* from 320px and up */
+@media(min-width:320px){
+    body{
+        background-color: blue;
+    }
+}
+/* from 768px and up */
+@media(min-width:768px){
+    body{
+        background-color: rgb(72, 255, 0);
+    }
+}
+/* from 1024px and up */
+@media(min-width:1024px){
+    body{
+        background-color: rgb(255, 234, 0);
+    }
+}
+
+@media(min-width:1224px){
+    body{
+        background-color: rgb(255, 162, 0);
+    }
+}
+
+@media(min-width:1824px){
+    body{
+        background-color: aqua
+    }
+}

@@ -1,0 +1,43 @@
+:root{
+    --blue:calc(1vh); 
+    --red:calc(3vw);
+    --green:calc(5vw);
+}
+
+body {font-family: sans-serif;}
+.row h2 {font-size: 5em;
+  text-shadow: 1px 1px 8px blue; 
+  text-align: center;
+}
+
+.row h1{
+    content: 'nah';
+
+}
+
+/*  */
+
+@media screen and (min-width:2100px) {  .row h2 span:after{content:'Greatness'}} /* Apple Cinema Display is 2560px wide, but I think full-screen browsing is edge-case for a lot of Mac users. */
+
+
+@media screen and (max-width:2000px) {  .row h2 span:after{content:'Enthusiasm'; color: rgb(166, 105, 39)}} 
+@media screen and (max-width:1900px) {  .row h2 span:after{content:'Motivation'; color: rgb(201, 184, 146)}} /* Many mobile devices in landscape */
+@media screen and (max-width:1800px) {  .row h2 span:after{content:'Tenaciousness'; color: rgb(185, 69, 23)}}
+@media screen and (max-width:1700px) {  .row h2 span:after{content:'Innovation'; color: rgb(185, 90, 23)}}
+@media screen and (max-width:1600px) {  .row h2 span:after{content:'Ingenuity' ; color: rgb(185, 23, 136)}}
+@media screen and (max-width:1500px) {  .row h2 span:after{content:'Creativity'; color: rgb(185, 23, 185)}}
+@media screen and (max-width:1400px) {  .row h2 span:after{content:'Empowerment'; color: rgb(185, 23, 88)}}
+@media screen and (max-width:1300px) {  .row h2 span:after{content:'Growth';font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; color: rgb(23, 185, 169)}}
+@media screen and (max-width:1200px) {  .row h2 span:after{content:'Optimism';font-family:Arial, Helvetica, sans-serif ; color: rgb(107, 23, 185)}}
+@media screen and (max-width:1100px) {  .row h2 span:after{content:'Endurance';font-family:Verdana, Geneva, Tahoma, sans-serif ; color: rgb(53, 66, 10)}} /* As narrow as Chrome, Safari Mac go */
+
+@media screen and (max-width:1000px) {  .row h2 span:after{content:'Focus';font-family:Arial, Helvetica, sans-serif; color: rgb(147, 185, 23) }}
+@media screen and (max-width:900px) {  .row h2 span:after{content:'Discipline';font-family:Arial, Helvetica, sans-serif; color: rgb(71, 144, 22)}}
+@media screen and (max-width:800px) {  .row h2 span:after{content:'Passion';font-family:fantasy; color: rgb(147, 185, 24)}}
+@media screen and (max-width:700px) {  .row h2 span:after{content:'Confidence';font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: rgb(62, 111, 43)}}
+@media screen and (max-width:350px) {  .row h2 span:after{content:'Hope';font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(83, 104, 122)}}
+@media screen and (max-width:600px) {  .row h2 span:after{content:'Resilience';font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: aliceblue}}
+@media screen and (max-width:500px) {  .row h2 span:after{content:'Ambition';font-family:Georgia, 'Times New Roman', Times, serif ; color: rgb(20, 2, 10)}}
+@media screen and (max-width:400px) {  .row h2 span:after{content:'Determination';font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; color: rgb(255, 244, 240)}} /* Most mobile devices in portrait. This is as small as Firefox and Safari PC go. */
+@media screen and (max-width:310px) {  .row h2 span:after{content:'Courage';font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;; color: rgb(50, 65, 79)}}
+@media screen and (max-width:300px) {  .row h2 span:after{content:'Perseverance'; font-family: 'Courier New', Courier, monospace; color: rgb(255, 240, 240);}} 

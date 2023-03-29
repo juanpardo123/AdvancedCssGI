@@ -1,0 +1,16 @@
+menu{
+    display: flex;
+    height: 100vh;
+    width: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+items{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: black;
+}

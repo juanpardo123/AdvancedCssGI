@@ -1,0 +1,20 @@
+.board{
+    height: auto;
+    border-style: solid;
+    width: fit-content;
+    display: flex;
+
+}
+
+.white{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+
+
+.black{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}

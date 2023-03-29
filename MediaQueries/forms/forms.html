@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    button{ width: 30vw;
+    height: 10vh;
+    border-radius: 15px;
+    }
+    
+    .yes{
+        background-color: rgb(196, 255, 202);
+        backdrop-filter: blur;
+    }
+    
+    .no{
+        background-color: rgb(255, 196, 202);
+    }
+   form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+    vertical{
+        height: 20px;
+        }
+</style>
+<body>
+    
+    <form>
+       
+        <vertical>
+            <label for="Name" value="Name" >Name </label>
+            <input type="text" placeholder="Name" required >
+            <label for="Date" value="Name" >Date </label>
+            <input type="date" placeholder="1/20/2023" required >
+            <label for="contact" value="Name" >PhoneNumber </label>
+            <input type="number" placeholder="123-456-789" required >
+
+        </vertical>
+       <horizontal>
+            <button class="yes" value="yes">
+                yes
+            </button>
+            <button class="no" value="No">
+                No
+            </button>
+        </horizontal>
+        </form>
+</body>
+</html>

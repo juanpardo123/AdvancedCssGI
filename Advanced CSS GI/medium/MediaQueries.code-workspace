@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../MediaQueries"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Advanced CSS GI"
+	}
+}

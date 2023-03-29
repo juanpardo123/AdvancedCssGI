@@ -1,0 +1,70 @@
+flag{
+    display: flex;
+    border-color: black;
+    height: 70vh;
+    width: 60vw;
+    color: black;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 76vw;
+    border-color: black;
+    border-style: groove;
+}
+stars{
+background-color: blue;
+height: 100%;
+width: 30%;
+}
+
+.red{
+    background-color: red;
+    width: 100%;
+    height: 14.2857%;
+
+}
+
+.white{
+    background-color: white;
+    width: 100%;
+    height: 14.2857%;
+}
+
+horizontal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    width: inherit;
+    height: 100%;
+    
+}
+
+vertical{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+bottom{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: inherit;
+    height: 100%;
+
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
