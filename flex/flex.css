@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+   background-color: #103c59; 
+   font-family: 'Open Sans', sans-serif;
+   color: snow;
+   max-width: 0 auto;
+   padding: 16px;
+
+}
+
+.task{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+}
+
+.container{
+    background-color: snow;
+    border: 1px solid lightgray;
+    height: 200px;
+    border-radius: 4px;
+
+}
+
+.item{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba((0), 0, 0, 0.25);
+    background-color: #22c2c6;
+    text-align: center;
+
+}
+
+.sm{
+    width: 20px;
+
+}
+
+.lg{
+    width: 80px;
+}
+.task-1 .container{
+    display: flex;
+}
+.task-2 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.task-3 .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-4 .option-1 .container{
+    display: flex;
+    justify-content: flex-end;
+}
+.task-4 .option-2 .container{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.task-4 .option-3 .container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.task-5 .container {
+    display: flex;
+
+}
+
+.task-5 .item-1{
+    flex-grow: 3;
+}
+.task-5 .item-2{
+    flex-grow: 2;
+}
+.task-5 .item-3{
+    flex-grow: 1;
+}
+.task-6 .item {
+    display: flex;
+    flex-wrap: wrap;
+}
