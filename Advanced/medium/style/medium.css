@@ -1,2 +1,7 @@
 h1 {
   color: #e32222; }
+
+  .item{
+    background-color: black;
+    width: fit-content;
+  }
